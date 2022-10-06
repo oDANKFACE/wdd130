@@ -1,0 +1,73 @@
+body {
+    background-color: #fca6c9;
+}
+
+.white-text {
+    color: white;
+}
+
+.bottom-quote {
+    padding: 0;
+    width: 320px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.sans {
+    font-family: sans-serif;
+}
+.small {
+    font-size: 0.8em;
+}
+
+.large {
+    font-size: 2em;
+}
+
+.large-pad {
+    padding: 30px;
+}
+
+.skinny {
+    width: 280px;
+}
+
+h1, p{
+    text-align: center;
+}
+
+h1, p, ol {
+    width: 375px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+}
+
+h1:hover {
+    color: black;
+}
+
+li {
+    line-height: 1.5em;
+    padding: 5px;
+}
+
+img {
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+body > * {
+    display: block;
+    /*border: solid red 1px;*/
+}
+
+p {
+    padding: 10px;
+}
