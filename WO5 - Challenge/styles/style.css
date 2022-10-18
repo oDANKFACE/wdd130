@@ -1,0 +1,26 @@
+.top_img {
+    margin: 0;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    border: 10px solid black;
+}
+
+footer {
+    padding: 100px;
+
+}
+
+footer img {
+    border: 5px solid darkgray;
+    display: inline;
+    max-width: 20%;
+    border-radius: 100%;
+    margin: 0 5%;
+}
+
+img {
+
+}
