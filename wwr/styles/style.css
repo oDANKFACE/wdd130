@@ -71,7 +71,7 @@ nav a:hover {
     color: khaki;
 }
 
-.msg {
+.msg, .rivers-msg {
     background-color: cadetblue;
     line-height: 1.5em;
     padding: 35px;
@@ -217,6 +217,53 @@ footer {
     transform: scale(1.1);
 }
 
+.article-left {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.article-right {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.rivers-msg {
+    box-shadow: 5px 5px 10px gray;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.rivers-msg p {
+    color: lightsalmon;
+    font-size: 0.8em;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+.rivers-msg img {
+    box-shadow: 5px 5px 10px gray;
+    margin-right: 40px;
+    margin-left: 40px;
+    align-self: center;
+}
+
+.article-left p {
+    grid-column: 1/4;
+}
+
+.article-left img {
+    grid-column: 4/5;
+}
+
+.article-right p {
+    grid-column: 2/5;
+}
+
+.article-right img {
+    grid-column: 1/2;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -258,3 +305,4 @@ footer {
         margin-top: 25px;
     }
 }
+
