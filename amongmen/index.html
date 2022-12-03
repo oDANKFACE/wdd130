@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>A Video Game Website</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
         <a href="index.html">
-            <img>
+            <img id="nav_logo" src="images/logo.png" alt="Slinker logo">
         </a>
         <nav>
             <a href="index.html">Home</a>
@@ -17,44 +18,62 @@
     </header>
 
     <!--Hero area-->
-    <div>
-        <img>
+    <div id="hero">
+        <div id="hero-box">
+            <img id="hero-img" src="images/home/hero.png" alt="Some Title">
+        </div>
     </div>
-
-    <!--Welcome Message-->
-    <div>
-        <h1>Welcome message</h1>
-        <p>words words words words words words words words words words</p>
-        <button type="button">Sign Up</button>
+    <div id="welcome-msg">
+        <section id="welcome-msg-box">
+            <h1>Welcome to the Land of [insert cool name]</h1>
+            <p>In a world of trouble and badness, a hero will rise and bring the goodness into the land. Will that
+            hero be you? Test your mettle against the fiercest opponents (who actually aren't that bad) and claim
+            your title of the greatest hero who ever lived (along with a million others doing the exact same thing
+            as you. Embark on a journey filled with menial time-wasting tasks devised to make you think you are
+            playing a game filled with content. Level up your character using the exact same mechanics as every
+            other game you've played, "bUt ThIs TiMe It'S dIfFeReNt." Take your sword, and ride forth into battle
+            on a steed that doesn't come with the base game, and forces you to spend your real world money, in
+            order to purchase our in-game currency, which then allows you to purchase glorified 1-use slot machines
+            that might have what you're looking for. Go hero, fulfill your destiny, and buy our game!</p>
+        </section>
+        <div id="home-button-box1">
+            <a href="">Buy Now</a>
+        </div>
     </div>
 
     <!--Main content-->
     <main>
         <!---->
-        <section>
-            <img>
-            <p>
-                This is card 1
-            </p>
-        </section>
-        <section>
-            <img>
-            <p>
-                This is card 2
-            </p>
-        </section>
-        <section>
-            <img>
-            <p>
-                This is card 3
-            </p>
-        </section>
+        <div id="home-cards">
+            <section id="home-card-1">
+                <img src="images/gameplay/red/r_20%20Small.png">
+                <p>
+                    This is card 1
+                </p>
+            </section>
+            <section id="home-card-2">
+                <img src="images/gameplay/blue/b_18%20Small.png">
+                <p>
+                    This is card 2
+                </p>
+            </section>
+            <section id="home-card3">
+                <img src="images/gameplay/yellow/y_15%20Small.png">
+                <p>
+                    This is card 3
+                </p>
+            </section>
+        </div>
 
-        <section>
-            <img>
-            <button type="button">Button</button>
+        <section id="home-bottom">
+            <img id="home-bottom-img" src="images/home/bottom.png">
+            <div id="home-button-box2">
+                <a href="">Button</a>
+            </div>
         </section>
     </main>
+
+    <a class="site-plan" href="images/wireframe-1.png">Site Plan - Home</a>
 
     <footer>
         <a>User Agreement</a>
